@@ -51,6 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLocation.designer.cs">
+      <DependentUpon>AddLocation.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBConnect.cs" />
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -67,6 +73,9 @@
     <Compile Include="TimeTbl.Designer.cs">
       <DependentUpon>TimeTbl.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddLocation.resx">
+      <DependentUpon>AddLocation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
