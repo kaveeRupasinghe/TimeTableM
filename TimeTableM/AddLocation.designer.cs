@@ -60,10 +60,9 @@
             label6.BackColor = System.Drawing.Color.White;
             label6.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label6.ForeColor = System.Drawing.Color.Black;
-            label6.Location = new System.Drawing.Point(97, 401);
-            label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label6.Location = new System.Drawing.Point(129, 494);
             label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(95, 26);
+            label6.Size = new System.Drawing.Size(117, 31);
             label6.TabIndex = 12;
             label6.Text = "Capacity";
             // 
@@ -72,10 +71,9 @@
             label5.AutoSize = true;
             label5.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            label5.Location = new System.Drawing.Point(42, 405);
-            label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label5.Location = new System.Drawing.Point(56, 498);
             label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(0, 26);
+            label5.Size = new System.Drawing.Size(0, 31);
             label5.TabIndex = 11;
             // 
             // label4
@@ -84,10 +82,9 @@
             label4.BackColor = System.Drawing.Color.White;
             label4.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label4.ForeColor = System.Drawing.Color.Black;
-            label4.Location = new System.Drawing.Point(98, 282);
-            label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label4.Location = new System.Drawing.Point(131, 347);
             label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(131, 26);
+            label4.Size = new System.Drawing.Size(166, 31);
             label4.TabIndex = 4;
             label4.Text = "Room Name";
             // 
@@ -97,10 +94,9 @@
             label8.BackColor = System.Drawing.Color.White;
             label8.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label8.ForeColor = System.Drawing.Color.Black;
-            label8.Location = new System.Drawing.Point(98, 339);
-            label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label8.Location = new System.Drawing.Point(131, 417);
             label8.Name = "label8";
-            label8.Size = new System.Drawing.Size(121, 26);
+            label8.Size = new System.Drawing.Size(153, 31);
             label8.TabIndex = 30;
             label8.Text = "Room Type";
             // 
@@ -126,18 +122,19 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.ForeColor = System.Drawing.Color.SpringGreen;
-            this.panel2.Location = new System.Drawing.Point(-4, -23);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Location = new System.Drawing.Point(-5, -28);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1022, 627);
+            this.panel2.Size = new System.Drawing.Size(1363, 772);
             this.panel2.TabIndex = 5;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // txtcapacity
             // 
-            this.txtcapacity.Location = new System.Drawing.Point(360, 398);
-            this.txtcapacity.Margin = new System.Windows.Forms.Padding(2);
+            this.txtcapacity.Location = new System.Drawing.Point(480, 490);
+            this.txtcapacity.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtcapacity.Name = "txtcapacity";
-            this.txtcapacity.Size = new System.Drawing.Size(333, 29);
+            this.txtcapacity.Size = new System.Drawing.Size(443, 34);
             this.txtcapacity.TabIndex = 34;
             // 
             // radioButton4
@@ -145,10 +142,10 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.BackColor = System.Drawing.Color.White;
             this.radioButton4.ForeColor = System.Drawing.Color.Black;
-            this.radioButton4.Location = new System.Drawing.Point(568, 346);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton4.Location = new System.Drawing.Point(757, 426);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(118, 26);
+            this.radioButton4.Size = new System.Drawing.Size(142, 31);
             this.radioButton4.TabIndex = 33;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Laboratory";
@@ -160,10 +157,10 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.BackColor = System.Drawing.Color.White;
             this.radioButton3.ForeColor = System.Drawing.Color.Black;
-            this.radioButton3.Location = new System.Drawing.Point(360, 346);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton3.Location = new System.Drawing.Point(480, 426);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(124, 26);
+            this.radioButton3.Size = new System.Drawing.Size(153, 31);
             this.radioButton3.TabIndex = 32;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Lecture Hall";
@@ -174,9 +171,9 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(0, 0);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(137, 26);
+            this.radioButton2.Size = new System.Drawing.Size(166, 31);
             this.radioButton2.TabIndex = 31;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "radioButton2";
@@ -188,20 +185,19 @@
             this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(97, 219);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(129, 270);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(156, 26);
+            this.label7.Size = new System.Drawing.Size(194, 31);
             this.label7.TabIndex = 29;
             this.label7.Text = "Building Name";
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(6, 6);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton1.Location = new System.Drawing.Point(8, 7);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(137, 26);
+            this.radioButton1.Size = new System.Drawing.Size(166, 31);
             this.radioButton1.TabIndex = 27;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "radioButton1";
@@ -211,9 +207,9 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(0, 0);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(115, 26);
+            this.checkBox1.Size = new System.Drawing.Size(142, 31);
             this.checkBox1.TabIndex = 26;
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -226,28 +222,28 @@
             "Engineering Building",
             "Business Building",
             "New Building"});
-            this.cmbbuildingName.Location = new System.Drawing.Point(360, 219);
-            this.cmbbuildingName.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbbuildingName.Location = new System.Drawing.Point(480, 270);
+            this.cmbbuildingName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbbuildingName.Name = "cmbbuildingName";
-            this.cmbbuildingName.Size = new System.Drawing.Size(333, 30);
+            this.cmbbuildingName.Size = new System.Drawing.Size(443, 35);
             this.cmbbuildingName.TabIndex = 23;
             // 
             // txtroomName
             // 
-            this.txtroomName.Location = new System.Drawing.Point(360, 280);
-            this.txtroomName.Margin = new System.Windows.Forms.Padding(2);
+            this.txtroomName.Location = new System.Drawing.Point(480, 345);
+            this.txtroomName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtroomName.Name = "txtroomName";
-            this.txtroomName.Size = new System.Drawing.Size(333, 29);
+            this.txtroomName.Size = new System.Drawing.Size(443, 34);
             this.txtroomName.TabIndex = 21;
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(110, 30);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Location = new System.Drawing.Point(147, 37);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(101, 39);
+            this.button3.Size = new System.Drawing.Size(135, 48);
             this.button3.TabIndex = 19;
             this.button3.Text = "CLEAR";
             this.button3.UseVisualStyleBackColor = false;
@@ -257,10 +253,10 @@
             // 
             this.button2.BackColor = System.Drawing.Color.DarkCyan;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(6, 30);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(8, 37);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 39);
+            this.button2.Size = new System.Drawing.Size(133, 48);
             this.button2.TabIndex = 18;
             this.button2.Text = "SAVE";
             this.button2.UseVisualStyleBackColor = false;
@@ -271,10 +267,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(98, 162);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(131, 199);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(273, 26);
+            this.label3.Size = new System.Drawing.Size(344, 31);
             this.label3.TabIndex = 3;
             this.label3.Text = "Add Rooms Building Wise :";
             // 
@@ -284,22 +279,21 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label1.Location = new System.Drawing.Point(352, 52);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(469, 64);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 44);
+            this.label1.Size = new System.Drawing.Size(323, 57);
             this.label1.TabIndex = 1;
             this.label1.Text = "Add Location";
             // 
             // AddLocation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1001, 574);
+            this.ClientSize = new System.Drawing.Size(1335, 706);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AddLocation";
             this.Text = "Add Location";
             this.panel2.ResumeLayout(false);
