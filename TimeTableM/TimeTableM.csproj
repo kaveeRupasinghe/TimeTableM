@@ -51,6 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddLecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLecturer.designer.cs">
+      <DependentUpon>AddLecturer.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddLocation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,12 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManageLecturers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageLecturers.designer.cs">
+      <DependentUpon>ManageLecturers.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManageStudent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +97,9 @@
     <Compile Include="TimeTbl.Designer.cs">
       <DependentUpon>TimeTbl.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddLecturer.resx">
+      <DependentUpon>AddLecturer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddLocation.resx">
       <DependentUpon>AddLocation.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageLecturers.resx">
+      <DependentUpon>ManageLecturers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageStudent.resx">
       <DependentUpon>ManageStudent.cs</DependentUpon>
