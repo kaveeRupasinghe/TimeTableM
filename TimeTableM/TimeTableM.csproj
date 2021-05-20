@@ -75,19 +75,17 @@
     <Compile Include="AddStudent.designer.cs">
       <DependentUpon>AddStudent.cs</DependentUpon>
     </Compile>
-
     <Compile Include="AddSubject.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddSubject.designer.cs">
       <DependentUpon>AddSubject.cs</DependentUpon>
-
+    </Compile>
     <Compile Include="AddTag.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddTag.designer.cs">
       <DependentUpon>AddTag.cs</DependentUpon>
-
     </Compile>
     <Compile Include="DBConnect.cs" />
     <Compile Include="Home.cs">
@@ -102,25 +100,29 @@
     <Compile Include="ManageLecturers.designer.cs">
       <DependentUpon>ManageLecturers.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManageSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageSession.designer.cs">
+      <DependentUpon>ManageSession.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManageStudent.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ManageStudent.designer.cs">
       <DependentUpon>ManageStudent.cs</DependentUpon>
     </Compile>
-
     <Compile Include="ManageSubject.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ManageSubject.designer.cs">
       <DependentUpon>ManageSubject.cs</DependentUpon>
-
+    </Compile>
     <Compile Include="ManageTag.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ManageTag.designer.cs">
       <DependentUpon>ManageTag.cs</DependentUpon>
-
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -143,13 +145,11 @@
     <EmbeddedResource Include="AddStudent.resx">
       <DependentUpon>AddStudent.cs</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Include="AddSubject.resx">
       <DependentUpon>AddSubject.cs</DependentUpon>
-
+    </EmbeddedResource>
     <EmbeddedResource Include="AddTag.resx">
       <DependentUpon>AddTag.cs</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -157,16 +157,17 @@
     <EmbeddedResource Include="ManageLecturers.resx">
       <DependentUpon>ManageLecturers.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ManageSession.resx">
+      <DependentUpon>ManageSession.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageStudent.resx">
       <DependentUpon>ManageStudent.cs</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Include="ManageSubject.resx">
       <DependentUpon>ManageSubject.cs</DependentUpon>
-
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageTag.resx">
       <DependentUpon>ManageTag.cs</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
