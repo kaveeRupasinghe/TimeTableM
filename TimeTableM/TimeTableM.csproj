@@ -90,6 +90,13 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+
+    <Compile Include="ManageLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageLocation.designer.cs">
+      <DependentUpon>ManageLocation.cs</DependentUpon>
+
     <Compile Include="ManageLecturers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +121,7 @@
     </Compile>
     <Compile Include="ManageTag.designer.cs">
       <DependentUpon>ManageTag.cs</DependentUpon>
+
 
     </Compile>
     <Compile Include="Program.cs" />
@@ -145,6 +153,10 @@
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
+
+    <EmbeddedResource Include="ManageLocation.resx">
+      <DependentUpon>ManageLocation.cs</DependentUpon>
+
     <EmbeddedResource Include="ManageLecturers.resx">
       <DependentUpon>ManageLecturers.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,6 +169,7 @@
 
     <EmbeddedResource Include="ManageTag.resx">
       <DependentUpon>ManageTag.cs</DependentUpon>
+
 
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
