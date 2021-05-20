@@ -86,6 +86,7 @@
     </Compile>
     <Compile Include="AddTag.designer.cs">
       <DependentUpon>AddTag.cs</DependentUpon>
+
     </Compile>
     <Compile Include="AddTimeSlot.cs">
       <SubType>Form</SubType>
@@ -98,6 +99,7 @@
     </Compile>
     <Compile Include="AddWorking.designer.cs">
       <DependentUpon>AddWorking.cs</DependentUpon>
+
     </Compile>
     <Compile Include="DBConnect.cs" />
     <Compile Include="Home.cs">
@@ -117,6 +119,12 @@
     </Compile>
     <Compile Include="ManageLecturers.designer.cs">
       <DependentUpon>ManageLecturers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageSession.designer.cs">
+      <DependentUpon>ManageSession.cs</DependentUpon>
     </Compile>
     <Compile Include="ManageStudent.cs">
       <SubType>Form</SubType>
@@ -168,12 +176,14 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddTag.resx">
       <DependentUpon>AddTag.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="AddTimeSlot.resx">
       <DependentUpon>AddTimeSlot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddWorking.resx">
       <DependentUpon>AddWorking.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -183,6 +193,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManageLecturers.resx">
       <DependentUpon>ManageLecturers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageSession.resx">
+      <DependentUpon>ManageSession.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageStudent.resx">
       <DependentUpon>ManageStudent.cs</DependentUpon>
