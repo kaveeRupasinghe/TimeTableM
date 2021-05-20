@@ -81,6 +81,12 @@
     <Compile Include="AddTag.designer.cs">
       <DependentUpon>AddTag.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddTimeSlot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTimeSlot.designer.cs">
+      <DependentUpon>AddTimeSlot.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddWorking.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddTag.resx">
       <DependentUpon>AddTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTimeSlot.resx">
+      <DependentUpon>AddTimeSlot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddWorking.resx">
       <DependentUpon>AddWorking.cs</DependentUpon>
