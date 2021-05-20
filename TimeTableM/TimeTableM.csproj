@@ -63,6 +63,12 @@
     <Compile Include="AddLocation.designer.cs">
       <DependentUpon>AddLocation.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddSession1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSession1.designer.cs">
+      <DependentUpon>AddSession1.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddStudent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddLocation.resx">
       <DependentUpon>AddLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSession1.resx">
+      <DependentUpon>AddSession1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddStudent.resx">
       <DependentUpon>AddStudent.cs</DependentUpon>
