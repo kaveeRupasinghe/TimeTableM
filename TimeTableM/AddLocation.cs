@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-
+//add location
 
 namespace TimeTableM
 {
@@ -78,7 +78,7 @@ namespace TimeTableM
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
-            //----
+            
         }
     }
 }
