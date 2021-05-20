@@ -63,6 +63,12 @@
     <Compile Include="AddStudent.designer.cs">
       <DependentUpon>AddStudent.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTag.designer.cs">
+      <DependentUpon>AddTag.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBConnect.cs" />
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -75,6 +81,12 @@
     </Compile>
     <Compile Include="ManageStudent.designer.cs">
       <DependentUpon>ManageStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageTag.designer.cs">
+      <DependentUpon>ManageTag.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,11 +103,17 @@
     <EmbeddedResource Include="AddStudent.resx">
       <DependentUpon>AddStudent.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddTag.resx">
+      <DependentUpon>AddTag.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageStudent.resx">
       <DependentUpon>ManageStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageTag.resx">
+      <DependentUpon>ManageTag.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
