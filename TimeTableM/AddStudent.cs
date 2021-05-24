@@ -56,6 +56,7 @@ namespace TimeTableM
             cmbGrpNo.Items.Add("06");
             cmbGrpNo.Items.Add("07");
             cmbGrpNo.Items.Add("08");
+            cmbGrpNo.Items.Add("09");
         }
         void SubGroup()
         {
