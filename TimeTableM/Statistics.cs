@@ -22,7 +22,7 @@ namespace TimeTableM
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            
+            //------
         }
 
         private void btnView_Click(object sender, EventArgs e)
