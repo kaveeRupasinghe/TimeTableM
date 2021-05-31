@@ -23,7 +23,7 @@ namespace TimeTableM
         {
             cmbRelatedTag.Items.Add("Lecture");
             cmbRelatedTag.Items.Add("Tutorial");
-            cmbRelatedTag.Items.Add("Lab");
+            cmbRelatedTag.Items.Add("Laboratory");
         }
 
         private void label3_Click(object sender, EventArgs e)
