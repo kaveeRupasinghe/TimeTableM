@@ -11,6 +11,7 @@ using MySql.Data.MySqlClient;
 
 namespace TimeTableM
 {
+   
     public partial class ManageTag : Form
     {
         MySqlConnection con = null;
@@ -24,7 +25,7 @@ namespace TimeTableM
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+                //-------------------------------------------------
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
