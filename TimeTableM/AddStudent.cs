@@ -60,8 +60,8 @@ namespace TimeTableM
         }
         void SubGroup()
         {
-            cmbSubGrpNum.Items.Add("S1");
-            cmbSubGrpNum.Items.Add("S2");
+            cmbSubGrpNum.Items.Add("1");
+            cmbSubGrpNum.Items.Add("2");
         }
 
         private void button1_Click(object sender, EventArgs e)
